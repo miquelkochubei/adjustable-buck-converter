@@ -42,8 +42,3 @@ Full schematic and layout: [Buck_Converter_Schematic_and_Layout.pdf](Buck_Conver
 ## Tools
 
 Altium Designer
-
-## License
-
-Copyright © 2026 Michael Kochubey. All rights reserved.
-This design is shared for viewing only. Reproduction, manufacturing or redistribution requires written permission.

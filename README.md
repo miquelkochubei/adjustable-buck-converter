@@ -1,6 +1,5 @@
 # Adjustable Buck Converter
-
-A 2-layer, 3A DC-DC step-down supply designed in Altium Designer.
+A small project to practice Altium Designer. I designed a 2-layer adjustable step-down converter, starting with requirements and calculations and finishing with the schematic and PCB layout.
 
 The output is adjustable from 3.3V to 25V by a potentiometer in the feedback divider. The 7-30V input has ideal-diode reverse-polarity protection and an EMI filter.
 
@@ -17,7 +16,7 @@ Full schematic and layout: [Buck_Converter_Schematic_and_Layout.pdf](Buck_Conver
 | Output current | up to 3A |
 | PCB | 2 layers |
 
-## Design
+## Hardware Design
 
 **Input stage.** A 5A slow-blow fuse feeds an ideal-diode circuit built from an LM74700-Q1 controller and an N-channel MOSFET (PSMN013-60YLX), which blocks reverse polarity with a lower drop than a series diode. An SMBJ33A TVS diode clamps input transients.
 
@@ -25,7 +24,7 @@ Full schematic and layout: [Buck_Converter_Schematic_and_Layout.pdf](Buck_Conver
 
 **Converter.** A TPS54560B step-down regulator with an external Schottky catch diode (SBR8U60P5), a 10µH output inductor, and polymer and ceramic output capacitors. A potentiometer in the feedback divider sets the output voltage.
 
-## Layout
+## PCB Layout
 
 ![PCB layout](images/PCB_Layout.png)
 

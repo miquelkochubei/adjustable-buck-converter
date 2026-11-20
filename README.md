@@ -4,7 +4,7 @@ A 2-layer, 3A DC-DC step-down supply designed in Altium Designer.
 
 The output is adjustable from 3.3V to 25V by a potentiometer in the feedback divider. The 7-30V input has ideal-diode reverse-polarity protection and an EMI filter.
 
-![3D view](images/pcb_3d.png)
+![3D view](images/PCB_3D.png)
 
 Full schematic and layout: [Buck_Converter_Schematic_and_Layout.pdf](Buck_Converter_Schematic_and_Layout.pdf)
 
@@ -27,11 +27,11 @@ Full schematic and layout: [Buck_Converter_Schematic_and_Layout.pdf](Buck_Conver
 
 ## Layout
 
-![PCB layout](images/pcb_layout.png)
+![PCB layout](images/PCB_Layout.png)
 
 ## Schematic
 
-![Schematic](images/schematic.png)
+![Schematic](images/Schematic.png)
 
 ## Repository contents
 
